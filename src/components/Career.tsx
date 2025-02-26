@@ -15,43 +15,44 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Organizer @HackForce'25</h4>
+                <h5>Geek Room</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+            Spearheaded the organization and execution of a mini
+hackathon.
+Developed Strategies for participant engagement and event
+Management
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Coordinator @Placement Cell at JIMSEMTC</h4>
+                <h5>JIMSEMTC</h5>
               </div>
-              <h3>20XX</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+            Organized and led a successful placement drive in collaboration with Josh Technologies, facilitating recruitment opportunities for students.
+            Coordinated with the company’s HR team to understand hiring requirements and aligned student profiles accordingly.
+
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Position In Company</h4>
-                <h5>Company Name</h5>
+                <h4>Management Head </h4>
+                <h5>Navras</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2024</h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              labore sit non ipsum temporibus quidem, deserunt eaque officiis
-              mollitia ratione suscipit repellat.
+              Lead and managed a dynamic team to organize and execute multiple cultural events.
+Directed the planning, budgeting, and coordination of various cultural activities.
+Fostered partnerships with local businesses, sponsors, and other cultural organizations to enhance event quality and expand reach.
             </p>
           </div>
         </div>

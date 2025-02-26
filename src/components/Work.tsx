@@ -6,6 +6,55 @@ import { useGSAP } from "@gsap/react";
 
 gsap.registerPlugin(useGSAP);
 
+interface Project {
+  title: string;
+  tools: string[];
+  imageUrl: string;
+  altText: string;
+}
+
+const projects: Project[] = [
+  {
+    title: "Netflix Clone",
+    tools: ["HTML,CSS"],
+    imageUrl: "/images/placeholder.webp",
+    altText: "Project 01 Image"
+  },
+  {
+    title: "Amazon Clone",
+    tools: ["HTML,CSS,JavaScript"],
+    imageUrl: "/images/placeholder.webp",
+    altText: "Project 02 Image"
+  },
+  {
+    title: "BMI Calculator",
+    tools: ["Javascript", "CSS", "HTML"],
+    imageUrl: "/images/placeholder.webp",
+    altText: "Project 03 Image"
+  },
+  {
+    title: "Fake News Prediction",
+    tools: ["Python,Machine Learning"],
+    imageUrl: "/images/placeholder.webp",
+    altText: "Project 04 Image"
+  },
+  {
+    title: "Fake Flipkart Reviews",
+    tools: ["Python,Machine Learning"],
+    imageUrl: "/images/placeholder.webp",
+    altText: "Project 05 Image"
+  },
+  {
+    title: "Instagram Clone",
+    tools: ["HTML,CSS,JavaScript"],
+    imageUrl: "/images/placeholder.webp",
+    altText: "Project 06 Image"
+  }
+];
+
+
+
+
 const Work = () => {
   useGSAP(() => {
     let translateX: number = 0;
@@ -48,21 +97,21 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {[...Array(6)].map((_value, index) => (
+          {projects.map((project, index) => (
             <div className="work-box" key={index}>
               <div className="work-info">
                 <div className="work-title">
                   <h3>0{index + 1}</h3>
 
                   <div>
-                    <h4>Project Name</h4>
-                    <p>Category</p>
+                    <h4>{project.title}</h4>
+                    
                   </div>
                 </div>
-                <h4>Tools and features</h4>
-                <p>Javascript, TypeScript, React, Threejs</p>
+                <h4>Tools</h4>
+                <p>{project.tools}</p>
               </div>
-              <WorkImage image="/images/placeholder.webp" alt="" />
+              <WorkImage image="{project.img}" alt="" />
             </div>
           ))}
         </div>
